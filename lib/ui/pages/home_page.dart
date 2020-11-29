@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            picker = 2;
+           picker = 2;
           });
         },
         tooltip: 'Ayuda',
