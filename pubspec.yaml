@@ -24,11 +24,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   flutter_spinkit: ^4.1.2
+  flutter_login: ^1.0.14
+  simple_animations: ^2.3.1
+  submit_button: ^0.0.4
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -50,6 +50,15 @@ flutter:
     - assets/letters.png
     - assets/letters2.png
     - assets/logo2.png
+    - assets/4.png
+    - assets/background_login.png
+    - assets/suma.png
+    - assets/resta.png
+    - assets/division.png
+    - assets/multiplicacion.png
+    - assets/x.png
+    - assets/header.png
+
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
