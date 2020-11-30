@@ -7,6 +7,13 @@ class LevelPage extends StatefulWidget {
 class _LevelPageState extends State<LevelPage> {
   @override
   Widget build(BuildContext context) {
-    return Container( child: Center( child : Text('Niveles')));
+    return  Padding(
+      padding: const EdgeInsets.all(0.0),
+      child: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage('assets/levels.png'), fit: BoxFit.contain),
+          )),
+    );
   }
 }

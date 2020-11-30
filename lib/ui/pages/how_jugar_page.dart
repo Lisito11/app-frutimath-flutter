@@ -141,7 +141,6 @@ class _HowJugarPageState extends State<HowJugarPage> {
             spinnerColor: Theme.of(context).accentColor,
             backgroundColor: Theme.of(context).primaryColor,
             button: FlatButton(
-
                 onPressed: (){
                   Navigator.push(
                       context,
@@ -152,7 +151,6 @@ class _HowJugarPageState extends State<HowJugarPage> {
                 child: Text("¡ Y A   S É   J U G A R !",
                     style: TextStyle(color: Colors.white))),
           ),
-
         ],
       ),
     );
